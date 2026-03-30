@@ -21,9 +21,5 @@ Este projeto foi desenvolvido com o objetivo de praticar a criação de interfac
 - Validação de formulário com JavaScript
 - Responsividade completa para dispositivos móveis
 
-## 📸 Preview
-*(Adicione aqui uma imagem do projeto depois)*
-
----
 
 Feito com dedicação 💻🚀
