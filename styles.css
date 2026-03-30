@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;    
+}
+body {
+  margin: 0;
+  min-height: 100vh; /* altura total da tela */
+  display: flex;
+  justify-content: center; /* centro horizontal */
+  align-items: center;     /* centro vertical */
+  background: url('./imagem_login.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.container{
+    width: 400px;
+    background-color: transparent;
+    padding: 40px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    color: white;
+    padding: 30px 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    backdrop-filter: blur(60px);
+}
+.container h1{
+    font-size: 36px;
+    text-align: center;
+
+}
+
+.input-box{
+    position: relative;
+    width: 100% ;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: white;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top:25%;
+    font-size: 18px;
+    color: white;
+}
+.lembrar-me {
+    display: flex;
+    justify-content: space-between;
+    margin: -15px 0 15px;
+}
+.lembrar-me label input{
+    accent-color: white;
+    margin-right: 5px;
+}
+
+.lembrar-me a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.registar{
+    text-align: center;
+    margin-top: 20px;
+}
+.registar p{
+    color: white;
+}
+.registar a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+/* 
+margin e padding
+1 valor - margin: 20px - Todos os Lados
+2 valores - margin; 20px 30px - Em cima e embaixo, dos lados
+3 valores - padding: 20px 10px 30px -  Em cima, Dos Lados, embaixo
+4 valores - margin: 20px 10px 30px 40px - Em cima, direita, embaixo, esquerda
+*/
+
+
+.login{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+    cursor: pointer;
+}
+.login:hover{
+    background-color: rgba(255, 255, 255, .2);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, .4);
+    transition: 0.9s;
+}
